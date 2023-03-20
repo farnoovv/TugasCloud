@@ -15,9 +15,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        DB::table('pupup')->insert([
-            'pupip' => 'Test',
-            'pupop' => 15
+        DB::table('dosen')->insert([
+            'nidn' => 91299,
+            'namaDosen' => 'Dr Rico',
+            'email' => 'Rico@gmail.com'
         ]);
     }
 }

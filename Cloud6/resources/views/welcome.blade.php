@@ -13,7 +13,7 @@
         <!-- Styles -->
     </head>
     <body>
-        Halo teman2 kelompok 6!
+        Kita berhasil gaes 
         <strong>Database Connected: </strong>
     <?php
     try {
