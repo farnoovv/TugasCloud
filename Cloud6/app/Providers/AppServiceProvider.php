@@ -17,8 +17,11 @@ class AppServiceProvider extends ServiceProvider
     /**
      * Bootstrap any application services.
      */
-    public function boot(): void
+    public function boot()
     {
-        //
-    }
+        // if (!empty( env(' https://ec2d-36-68-11-138.ap.ngrok.io') ) && $request->server->has('http://127.0.0.1:4040')) {
+        //     $this->app['url']->forceRootUrl(env(' https://ec2d-36-68-11-138.ap.ngrok.io'));
+        // }
+        // // other code
+    }   
 }
